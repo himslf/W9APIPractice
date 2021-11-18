@@ -12,23 +12,52 @@
     <link rel="stylesheet" href="style.css"/>
         
     <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script> -->
-    <script src="script.js" ></script>
 
-    <title>Document</title>
+    <script src="script.js" ></script> 
+    <!-- OR -->
+    <script defer type="module" src="script.js" ></script>
+
+    <title>DOUBLE API Lab</title>
 </head>
+
+
 <body>
     <main>
+
         <h2>A Simple Fetch API Example Using Dog API</h2>
         
-        <p>Use the button below to 'fetch' a random dog image from <a href="https://dog.ceo/dog-api/">Dog API</a>.
-            This is an example that uses the Fetch API to get data from a free service.</p>
+        <p>Use button below to 'fetch' a random dog image from <a href="https://dog.ceo/dog-api/">Dog API</a>.
+            This is an example that uses the Fetch API to get data.</p>
         
         <img src="https://images.dog.ceo/breeds/terrier-american/n02093428_7164.jpg" id="myImage"><br>
       
         <button>Get Random Dog Image</button>
       
     </main>
+
+    <p>---------------------------------------------------------------------------------------------</p>
+
+    <!-- -----------------DICTIONARY-DIV BELOW----------------- -->
+
+    <noscript>Site requires JS to function.</noscript>
+
+    <div id="word-block">
+        <input id="search-word" type="text"/>
+        <button id="search-button">SEARCH WORD!</button>
+        <p id="search-message"></p>
+    </div> <!-- searchBLOCKdivEND -->
+
+    <div id="search-results">
+        <!-- RESULTS HERE -->
+    </div>
+
+    
+
+
+
 </body>
+
+
 </html>
 
 
